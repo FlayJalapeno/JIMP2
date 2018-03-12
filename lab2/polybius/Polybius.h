@@ -6,9 +6,5 @@
 #define JIMP_EXERCISES_POLYBIUS_H
 
 
-class Polybius {
-
-};
-
 
 #endif //JIMP_EXERCISES_POLYBIUS_H

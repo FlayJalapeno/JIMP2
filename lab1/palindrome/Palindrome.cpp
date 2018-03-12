@@ -5,8 +5,9 @@
 #include<iostream>
 #include "Palindrome.h"
 #include<string>
+using std::string;
 
-bool is_palindrome(std::string str)
+bool is_palindrome(string str)
 {
     int i,j;
     for(i = 0, j = str.length() - 1; i <= j; i++, j--)

@@ -3,10 +3,11 @@
 //
 #include<iostream>
 #include<Palindrome.h>
+using std::string;
 
 int main()
 {
-    std::string word = "abccba";
+    string word = "abc cba";
     std::cout<<"Odpowiedzia na pytanie, czy wyraz "<< word <<" jest palindromem, jest (1- prawda 0-falsz): "<< is_palindrome(word) << std::endl;
     return 0;
 }
