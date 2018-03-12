@@ -6,6 +6,7 @@
 
 int main()
 {
-    std::cout<<"Odpowiedzia na pytanie, czy wyraz jest palindromem, jest: "<< is_palindrome(abccba) << std::endl;
+    std::string word = "abccba";
+    std::cout<<"Odpowiedzia na pytanie, czy wyraz "<< word <<" jest palindromem, jest (1- prawda 0-falsz): "<< is_palindrome(word) << std::endl;
     return 0;
 }

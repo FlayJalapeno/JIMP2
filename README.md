@@ -1,7 +1,5 @@
 ### C++ programming classes problmes ###
-
 [![Build Status](https://travis-ci.org/FlayJalapeno/JIMP2.svg?branch=master)](https://travis-ci.org/FlayJalapeno/JIMP2)
-
 #### CLion CMakeLists.txt template ####
 
 In order to create new solution faster one can define template file 
