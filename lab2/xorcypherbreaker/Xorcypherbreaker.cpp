@@ -11,7 +11,7 @@ using std::find;
 using std::vector;
 using std::string;
 
-string XorCypherBreaker(vector<string> &cryptogram, int key_length = 3, vector<string> &dictionary) {
+string XorCypherBreaker(vector<string> &cryptogram, int key_length, vector<string> &dictionary) {
     char key[3] = {'0', '0', '0'};
     string answer = "";
     int i, j;
