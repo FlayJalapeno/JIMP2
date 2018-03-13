@@ -8,8 +8,6 @@
 #include <algorithm>
 
 using std::find;
-using std::vector;
-using std::string;
 /*
 string XorCypherBreaker(vector<string> &cryptogram, int key_length, vector<string> &dictionary) {
     char key[3] = {'0', '0', '0'};
@@ -30,9 +28,9 @@ string XorCypherBreaker(vector<string> &cryptogram, int key_length, vector<strin
     return answer;
 }
 */
-string XorCypherBreaker(const vector<char> &cryptogram, int key_length, const vector<std::string> &dictionary){
-    string key_guess, key_match;
-    vector<string> tekst;             //lista slow ktore porownoje ze slownikiem
+std::string XorCypherBreaker(const std::vector<char> &cryptogram, int key_length, const std::vector<std::string> &dictionary){
+    std::string key_guess, key_match;
+    std::vector<std::string> tekst;             //lista slow ktore porownoje ze slownikiem
     tekst.emplace_back("");
     bool done = false;
     int it = 0, it_t = 0, match = 0, match_max = 0;
